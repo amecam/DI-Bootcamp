@@ -49,8 +49,24 @@
 
 #exercise 6
 
-while True:
-    name = input("what is your name ?")
-    if name == "amecam":
-        break
+# while True:
+#     name = input("what is your name")
+#     if name == "amecam":
+#         break
+
+
+#exercise 7
+
+basket = str(input("what is your varotite fruit")).split()
+print(basket)
+fruit = input("enter a fruit ")
+
+if fruit in basket:
+    print("You chose one of your favorite fruits! Enjoy!")
+else:
+    print("You chose a new fruit. I hope you enjoy")
+
+
+
+
 

@@ -1,0 +1,100 @@
+# #exercise 1
+# keys = ['Ten', 'Twenty', 'Thirty']
+# values = [10, 20, 30]
+
+# numbers = list(zip(keys,values))
+# print(numbers)
+
+#exercise 2
+
+family = {"rick": 43, 'beth': 13, 'morty': 5, 'summer': 8}
+age = family.items()
+payment = []
+for name,age in family.items():
+    price=0
+    if  3 < age < 12:
+        price = 10
+
+    elif age > 12:
+        price = 15
+
+
+    # payment.append((name,price))
+
+print(payment)
+
+#exercise 3
+
+
+
+
+
+
+
+
+# brand = {
+#     "name": 'Zara',
+#     "creation_date": 1975,
+#     "creator_name": 'Amancio Ortega Gaona' ,
+#     "type_of_clothes":['men','women','children','home'],
+#     "international_competitors": ['Gap','H&M','Benetton'],
+#     "number_stores": 7000,
+#     "major_color":{
+#         "France":'blue',
+#         "Spain":'red',
+#         "US":['pink','green']
+    
+#     }
+# }
+
+
+# brand['number_stores'] = 2
+
+# # print(brand)
+ 
+# sentance =(f'{brand["name"]} clients are {brand["type_of_clothes"]}')
+
+
+# print(sentance)
+
+
+# brand["country_creation"] = "Spain"
+# print(brand)
+
+# brand["international_competitors"].append ("Desigual")
+# print(brand)
+
+
+
+
+
+
+# del brand['creation_date']
+
+
+# print(brand)
+
+
+
+# print(brand["international_competitors"][-1])
+
+# print(brand["major_color"]["US"])
+
+
+# for key, value in brand.items():
+#     print(key)
+
+# x= brand.keys()
+
+# print(x)
+
+# more_on_zara = {
+
+# 'creation_date': 1975 , 
+# 'number_stores': 10000 ,
+
+# }
+
+
+# brand.update(more_on_zara)
+# print(brand['number_stores'])
