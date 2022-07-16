@@ -19,7 +19,7 @@ for name,age in family.items():
         price = 15
 
 
-    # payment.append((name,price))
+    payment.append((name,price))
 
 print(payment)
 
