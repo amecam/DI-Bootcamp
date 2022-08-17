@@ -1,0 +1,11 @@
+
+
+hello amecam this is a feedback to your hackaton project. I liked the snake game is well done.
+
+I will point by the way that the screen in the beggining is open in a place that part of it is hidde in the top of the screen, 
+so you can play but part of the screen is not visible. Also you cant resize the screen or move it down. 
+
+Then when you lose you need close and start again the app instead of having the chance to close or select something. or to start again alone.
+
+Still Your game is working and it is well done. Congratulations.
+
